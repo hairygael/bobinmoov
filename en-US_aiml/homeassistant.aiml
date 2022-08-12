@@ -8,9 +8,39 @@
 <template>Turning on Sanctum Lights.<oob>
           <mrl>
             <service>python</service>
-            <method>execFile</method>
-            <param>mrl_ha_sanctum_light.py</param>
+            <method>exec</method>
+            <param>On_sanctum_light()</param>
           </mrl>
         </oob></template>
 </category>
+          
+<category><pattern>TURN OFF SANCTUM LIGHTS</pattern>
+<template>Turning off Sanctum Lights.<oob>
+          <mrl>
+            <service>python</service>
+            <method>exec</method>
+            <param>Off_sanctum_light()</param>
+          </mrl>
+        </oob></template>
+</category>          
+          
+<category><pattern>TURN ON DESKLIGHT</pattern>
+<template>Turning on desklight.<oob>
+          <mrl>
+            <service>python</service>
+            <method>exec</method>
+            <param>On_desklight()</param>
+          </mrl>
+        </oob></template>
+</category>  
+          
+<category><pattern>TURN OFF DESKLIGHT</pattern>
+<template>Turning off desklight.<oob>
+          <mrl>
+            <service>python</service>
+            <method>exec</method>
+            <param>Off_desklight()</param>
+          </mrl>
+        </oob></template>
+</category>          
 </aiml>
