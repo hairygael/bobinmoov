@@ -1,0 +1,6 @@
+!!org.myrobotlab.service.config.ArduinoConfig
+autoStartPeers: true
+connect: true
+port: /dev/ttyUSB0
+serial: i01.controller3.serial
+type: Arduino

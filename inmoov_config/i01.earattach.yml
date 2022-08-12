@@ -1,0 +1,7 @@
+!!org.myrobotlab.service.config.PythonConfig
+autoStartPeers: true
+startScripts:
+- i01.earattach.py
+stopScripts: [
+  ]
+type: Python

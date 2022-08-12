@@ -1,0 +1,7 @@
+!!org.myrobotlab.service.config.WebkitSpeechRecognitionConfig
+autoStartPeers: true
+listening: true
+textListeners:
+- i01.chatBot
+type: WebkitSpeechRecognition
+wakeWord: Hey Bob

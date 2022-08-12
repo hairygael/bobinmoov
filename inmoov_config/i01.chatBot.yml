@@ -1,0 +1,27 @@
+!!org.myrobotlab.service.config.ProgramABConfig
+autoStartPeers: true
+botDir: null
+bots:
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/Alice
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/Dr.Who
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/Ency
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/Mr. Turing
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/de-DE
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/en-US
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/es-ES
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/fi-FI
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/fr-FR
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/hi-IN
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/it-IT
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/nl-NL
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/pt-PT
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/ru-RU
+- /mrl/myrobotlab-1.1.865-2/data/ProgramAB/tr-TR
+currentBotName: en-US
+currentUserName: corey
+search: null
+textListeners:
+- i01.htmlFilter
+type: ProgramAB
+utteranceListeners: [
+  ]

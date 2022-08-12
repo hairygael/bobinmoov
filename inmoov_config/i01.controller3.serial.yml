@@ -1,0 +1,4 @@
+!!org.myrobotlab.service.config.SerialConfig
+autoStartPeers: true
+port: /dev/ttyUSB0
+type: Serial

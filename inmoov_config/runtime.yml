@@ -1,0 +1,31 @@
+!!org.myrobotlab.service.config.RuntimeConfig
+autoStartPeers: true
+enableCli: true
+locale: en-US
+logLevel: null
+registry:
+- runtime
+- security
+- webgui
+- intro
+- python
+- i01
+- i01.ear
+- i01.right.serial
+- i01.right
+- i01.left.serial
+- i01.left
+- i01.controller3.serial
+- i01.controller3
+- i01.neoPixel
+- i01.neoPixel2
+- i01.mouth.audioFile
+- i01.mouth
+- i01.htmlFilter
+- i01.chatBot.search
+- i01.chatBot
+- i01.opencv
+- i01.mqttHA
+# - i01.earattach
+type: Runtime
+virtual: false

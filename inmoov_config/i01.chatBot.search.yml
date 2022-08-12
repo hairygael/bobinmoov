@@ -1,0 +1,4 @@
+!!org.myrobotlab.service.config.WikipediaConfig
+autoStartPeers: true
+enabled: true
+type: Wikipedia
